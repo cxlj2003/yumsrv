@@ -1,1 +1,1 @@
-docker build -t yumsrv:v1 -f ./Dockerfile .
+docker build -t yumsrv:v2 -f ./Dockerfile .
