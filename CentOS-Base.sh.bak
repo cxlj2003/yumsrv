@@ -163,27 +163,3 @@ gpgcheck=1
 enabled=0
 gpgkey=http://$ipaddr/centos-vault/RPM-GPG-KEY-CentOS-6
 EOF
-
-cat <<EOF >./RHEL6.repo
-[base]
-name= RHEL6 repo
-baseurl=http://192.168.100.239/centos-vault/centos/6/os/$basearch/
-enabled=1
-gpgcheck=0
-EOF
-
-cat <<EOF >./RHEL7.repo
-[base]
-name= RHEL7 repo
-baseurl=http://192.168.100.239/centos/7/os/$basearch/
-enabled=1
-gpgcheck=0
-EOF
-
-cat <<EOF >./RHEL8.repo
-[base]
-name= RHEL8 repo
-baseurl=http://192.168.100.239/centos/8/os/$basearch/
-enabled=1
-gpgcheck=0
-EOF              

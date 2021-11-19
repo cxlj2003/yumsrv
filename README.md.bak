@@ -10,8 +10,5 @@ docker exec -it yumsrv bash
 3.客户端配置文件生产
 3.1 CentOS-Base.sh 可生成CentOS6/7/8-Base.repo和RHEL6/7/8-Base.repo，将生成文件复制至/etc/yum.repos.d/,运行yum makecache fast更新缓存。
 3.2 epel.sh 可生成epel6/7.repo,将生成文件复制至/etc/yum.repos.d/,运行yum makecache fast更新缓存。
-3.4
-3.5
-3.6 Ubuntu-list.sh 可生成Ubuntu14/16/18/20.list，将生成文件复制至/etc/apt/list.d/,运行apt update更新缓存。
-
+3.3 Ubuntu-list.sh 可生成Ubuntu14/16/18/20.list，将生成文件复制至/etc/apt/list.d/,运行apt update更新缓存。
 
